@@ -15,7 +15,7 @@ func small(n int) int {
 	small := false
 	for !small {
 		for i := n; i >= 1; i-- {
-			if x % i != 0 {
+			if x%i != 0 {
 				small = false
 				break
 			}

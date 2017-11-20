@@ -10,10 +10,10 @@ func main() {
 	fmt.Scanln(&b)
 
 	if a > b {
-		fmt.Printf("%d mod %d = %d\n", a, b, a % b)
+		fmt.Printf("%d mod %d = %d\n", a, b, a%b)
 	} else if a < b {
-		fmt.Printf("%d mod %d = %d\n", b, a, b % a)
+		fmt.Printf("%d mod %d = %d\n", b, a, b%a)
 	} else {
-		fmt.Printf("%d mod %d = %d\n", a, b, a % b)
+		fmt.Printf("%d mod %d = %d\n", a, b, a%b)
 	}
 }

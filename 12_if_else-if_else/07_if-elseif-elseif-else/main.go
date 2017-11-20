@@ -7,7 +7,7 @@ func main() {
 		fmt.Println("This never be seen")
 	} else if true {
 		fmt.Println("This is true!")
-	} else  if true {
+	} else if true {
 		fmt.Println("Already true. Doh!")
 	} else if false {
 		fmt.Println("Fix your problem")

@@ -19,5 +19,5 @@ func main() {
 		sumsquare += i * i
 		squaresum += i
 	}
-	fmt.Println(squaresum * squaresum - sumsquare)
+	fmt.Println(squaresum*squaresum - sumsquare)
 }

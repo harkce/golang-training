@@ -12,17 +12,17 @@
 package main
 
 import (
-	"math"
 	"fmt"
+	"math"
 )
 
 func tripletSum(n int) int {
 	i := 1
 	for i < n {
 		j := 1
-		for j < n - i {
+		for j < n-i {
 			k := n - i - j
-			if math.Pow(float64(i), 2) + math.Pow(float64(j), 2) == math.Pow(float64(k), 2) {
+			if math.Pow(float64(i), 2)+math.Pow(float64(j), 2) == math.Pow(float64(k), 2) {
 				return i * j * k
 			}
 			j++

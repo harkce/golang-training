@@ -17,7 +17,7 @@ func main() {
 		new := first + second
 		first = second
 		second = new
-		if new % 2 == 0 {
+		if new%2 == 0 {
 			total += new
 		}
 	}

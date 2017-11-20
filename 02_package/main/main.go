@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/harkce/golang-training/02_package/stringutil"
 	"github.com/harkce/golang-training/02_package/icomefromalaska"
+	"github.com/harkce/golang-training/02_package/stringutil"
 	//someAlias "github.com/harkce/golang-training/02_package/icomefromalaska"
 )
 

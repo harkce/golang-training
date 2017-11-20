@@ -9,7 +9,7 @@ package main
 import "fmt"
 
 func multiple35(n int) bool {
-	if n % 3 == 0 || n % 5 == 0 {
+	if n%3 == 0 || n%5 == 0 {
 		return true
 	}
 	return false

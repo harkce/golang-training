@@ -7,8 +7,8 @@
 package main
 
 import (
-	"github.com/harkce/golang-training/02_package/stringutil"
 	"fmt"
+	"github.com/harkce/golang-training/02_package/stringutil"
 	"strconv"
 )
 
